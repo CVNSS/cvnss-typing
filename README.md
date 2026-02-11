@@ -4,12 +4,12 @@
 **cvnss-typing** is an open-source, IME-like tray tool for Windows that converts **CVNSS4.0 (Chữ Việt Nam Song Song 4.0)** input into properly accented Vietnamese text in real time.
 
 > **License:** MIT  
-> **Cha Đẻ (Founders):** Trần Tư Bình, Kiều Trường Lâm  
+> **Founders:** Trần Tư Bình, Kiều Trường Lâm  
 > **Archive:** https://chuvietnhanh.sourceforge.net/  
 > **Official project site:** https://chuvnsongsong.com/  
 > **Maintainer:** hoaflee  
 > **Attribution:** Hoàng Văn Bát, Trần Thị Minh, Nguyễn Thị Thái, Nguyễn Văn Luận, Phạm Hợi, ...  
-> **Implementation Author:** Long Ngo
+> **Dev (this tool):** Long Ngo
 
 
 ---
@@ -135,8 +135,8 @@ docs/          # notes and quick tests
 
 ## 👥 Credits
 
-- **Cha Đẻ (Founders):** Trần Tư Bình, Kiều Trường Lâm  
-- **Implementation Author (this tool):** Long Ngo  
+- **Founders:** Trần Tư Bình, Kiều Trường Lâm  
+- **Dev (this tool):** Long Ngo  
 - **Copyright ID:** 1850/2020/QTG  
 
 ---
