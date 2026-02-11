@@ -1,4 +1,4 @@
-# ⭐ cvnss-typing
+# ⭐ cvnss-typing 2020
 **CVNSS4.0 Real-time Typing Engine (Windows Tray IME-like Tool)**
 
 **cvnss-typing** is an open-source, IME-like tray tool for Windows that converts **CVNSS4.0 (Chữ Việt Nam Song Song 4.0)** input into properly accented Vietnamese text in real time.
