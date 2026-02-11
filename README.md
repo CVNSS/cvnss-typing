@@ -1,4 +1,4 @@
-# ⭐ cvnss-typing  
+# ⭐ cvnss-typing
 **CVNSS4.0 Real-time Typing Engine (Windows Tray IME-like Tool)**
 
 **cvnss-typing** is an open-source, IME-like tray tool for Windows that converts **CVNSS4.0 (Chữ Việt Nam Song Song 4.0)** input into properly accented Vietnamese text in real time.
@@ -14,7 +14,7 @@
 ## 🌐 Multilingual Overview
 
 ### 🇬🇧 English
-**cvnss-typing** provides a lightweight Windows tray experience similar to an IME. It supports typing with **CVNSS4.0**, a parallel Vietnamese writing system designed to optimize typing efficiency and maintain phonetic clarity. The tool converts CVNSS-style tokens into standard Vietnamese orthography instantly (e.g., when pressing Space/Enter/Tab/punctuation), and can display short inline candidate suggestions near the caret.
+**cvnss-typing** provides a lightweight Windows tray experience similar to an IME. It supports typing with **CVNSS4.0**, a parallel Vietnamese writing system designed to optimize typing efficiency and maintain phonetic clarity. The tool converts CVNSS-style tokens into standard Vietnamese orthography instantly (e.g., when pressing Space/Enter/Tab/punctuation) and can display short inline candidate suggestions near the caret.
 
 ### 🇻🇳 Tiếng Việt
 **cvnss-typing** là công cụ bộ gõ dạng IME chạy nền trên Windows. Bạn gõ theo **CVNSS4.0 (Chữ Việt Nam Song Song 4.0)** và hệ thống sẽ tự chuyển sang chữ Quốc Ngữ có dấu theo thời gian thực khi bấm **Space/Enter/Tab/dấu câu**, đồng thời có thanh gợi ý 4–6 từ gần vị trí con trỏ (tùy chế độ).
@@ -39,13 +39,10 @@
 ## ✨ Key Features
 
 - ⭐ **Tray-based IME-like workflow** (toggle on/off)
-- ⚡ **Real-time conversion** on:
-  - Space / Enter / Tab / punctuation
-- 🧠 **Inline suggestions** (4–6 candidates near caret), quick accept via:
-  - **Tab** or **1..6**, **Esc** to hide
+- ⚡ **Real-time conversion** on: Space / Enter / Tab / punctuation
+- 🧠 **Inline suggestions** (4–6 candidates near caret) — accept via **Tab** or **1..6**, **Esc** to hide
 - 📝 **Notepad-first optimization** (fast and stable in Notepad)
-- 📦 **Portable build**
-  - EXE can run on a target PC **without installing AutoHotkey**
+- 📦 **Portable build** — EXE can run on a target PC **without installing AutoHotkey**
 - 🔓 **Open-source (MIT)**
 
 ---
@@ -56,88 +53,100 @@ Type:
 
 ```txt
 Chuc mugk namo moix
-Press Space →
+```
 
+Press **Space** →
+
+```txt
 Chúc mừng năm mới
+```
 
-🚀 Quick Start
-Requirements
+---
 
-Windows 10/11
+## 🚀 Quick Start
 
-AutoHotkey v2 (for running from source)
+### Requirements
+- Windows 10/11
+- AutoHotkey v2 (for running from source)
+- Node.js (for converter + suggestion engine in `tools/`)
 
-Node.js (for converter + suggestion engine in tools/)
-
-Run from source
+### Run from source
+```bat
 scripts\RUN.cmd
+```
 
+### Toggle
+- **Ctrl + Alt + V**
 
-Toggle:
+---
 
-Ctrl + Alt + V
+## 🧱 Build Portable EXE
 
-🧱 Build Portable EXE
+```bat
 scripts\BUILD_EXE.cmd
-
+```
 
 Output:
+- `dist\CVNSS-IME.exe`
 
-dist\CVNSS-IME.exe
+> This EXE runs on other PCs **without installing AutoHotkey**.
 
-This EXE runs on other PCs without installing AutoHotkey.
+---
 
-🎒 Create Full Portable Package (Optional)
+## 🎒 Create Full Portable Package (Optional)
+
+```bat
 scripts\PACK_PORTABLE.cmd
-
+```
 
 Output folder:
-
-dist\CVNSS-IME-PORTABLE\
+- `dist\CVNSS-IME-PORTABLE\`
 
 Run on any PC:
+- `Start.cmd`
 
-Start.cmd
+> If `node\node.exe` exists inside the portable folder, the target PC does **not** need Node.js installed.
 
-If node\node.exe exists inside the portable folder, the target PC does not need Node.js installed.
+---
 
-📁 Project Structure
+## 📁 Project Structure
+
+```txt
 assets/        # icons / branding
 ime/           # AutoHotkey v2 IME-like tray script
 tools/         # Node.js converter + suggestion CLIs
 scripts/       # run / build / packaging scripts
 docs/          # notes and quick tests
+```
 
-📌 About CVNSS4.0 (Official References)
+---
 
-Official project site:
-https://chuvnsongsong.com/
+## 📌 About CVNSS4.0 (Official References)
 
-Archive repository:
-https://chuvietnhanh.sourceforge.net/
+- Official project site: https://chuvnsongsong.com/  
+- Archive repository: https://chuvietnhanh.sourceforge.net/  
+- Formula / Rules: https://chuvietnhanh.sourceforge.net/TomGonCongThucCVNSS.htm  
+- Research paper: https://vietnamhoc.net/chu-vn-song-song-cvnss4-0-trong-boi-canh-cach-mang-cong-nghe-4-0/
 
-Formula / Rules:
-https://chuvietnhanh.sourceforge.net/TomGonCongThucCVNSS.htm
+---
 
-Research paper:
-https://vietnamhoc.net/chu-vn-song-song-cvnss4-0-trong-boi-canh-cach-mang-cong-nghe-4-0/
+## 👥 Credits
 
-👥 Credits
+- **Cha Đẻ (Founders):** Trần Tư Bình, Kiều Trường Lâm  
+- **Implementation Author (this tool):** Long Ngo  
+- **Copyright ID:** 1850/2020/QTG  
 
-Cha Đẻ (Founders): Trần Tư Bình, Kiều Trường Lâm
+---
 
-Implementation Author (this tool): Long Ngo
+## 🪪 License
+MIT License — see [`LICENSE`](LICENSE).
 
-Copyright ID: 1850/2020/QTG
+---
 
-🪪 License
+## 🧾 Update & Push (local)
 
-MIT License — see LICENSE
-.
-
-
-### Push nhanh sau khi paste (nếu bạn sửa local)
 ```bat
 git add README.md
 git commit -m "docs: update README (multilingual + official references)"
 git push
+```
