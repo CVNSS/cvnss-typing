@@ -7,7 +7,7 @@
 > **Cha Đẻ (Founders):** Trần Tư Bình, Kiều Trường Lâm  
 > **Archive:** https://chuvietnhanh.sourceforge.net/  
 > **Official project site:** https://chuvnsongsong.com/
-
+> **Attribution:** Hoàng Văn Bát, Trần Thi Minh, Nguyễn Thị Thái, Nguyễn Văn Luận, Phạm Hợi,... 
 > **Implementation Author:** Long Ngo  
 
 ---
