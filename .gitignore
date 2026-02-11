@@ -1,0 +1,17 @@
+# build output
+dist/
+*.exe
+
+# node
+node_modules/
+node/
+npm-debug.log*
+
+# temp
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# AHK
+*.ahk.bak
